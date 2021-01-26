@@ -69,8 +69,8 @@ class NFRBaseTest: XCTest {
         }
     }
     
-//    private func captureNFRStats(_ statusArray: [String])
-//    {
+    private func captureNFRStats(_ statusArray: [String])
+    {
 //        let memoryController = StartViewControllerMemory(statusArray: statusArray)
 //        let cpuController = StartCPUController(statusArray: statusArray)
 //        let networkController = StartViewControllerNetwork(statusArray: statusArray)
@@ -83,7 +83,7 @@ class NFRBaseTest: XCTest {
 //            print("error ")
 //        }
 //
-//    }
+    }
 }
 
 
