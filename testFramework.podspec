@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'testFramework'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of testFramework.'
+  s.summary          = 'A generic iOS Test Framework Library.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'A generic iOS Test Framework library which can be integrated with other Test Suites just by installing a pod.'
 
   s.homepage         = 'https://github.com/anijain15/testFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -27,7 +25,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'anijain15' => 'anirudh.jain@wynk.in' }
   s.source           = { :git => 'https://github.com/anijain15/testFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '5.0'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'testFramework/Classes/**/*'
@@ -37,6 +35,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit', 'XCTest'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
