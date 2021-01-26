@@ -61,8 +61,6 @@
 		C7D2D0E625C0BBCA004A232F /* SystemAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2D0E425C0BBCA004A232F /* SystemAlerts.swift */; };
 		C7D2D0ED25C0BBD2004A232F /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2D0E825C0BBD2004A232F /* BasePage.swift */; };
 		C7D2D0EE25C0BBD2004A232F /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2D0E825C0BBD2004A232F /* BasePage.swift */; };
-		C7D2D0EF25C0BBD2004A232F /* NFRBaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2D0E925C0BBD2004A232F /* NFRBaseTest.swift */; };
-		C7D2D0F025C0BBD2004A232F /* NFRBaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2D0E925C0BBD2004A232F /* NFRBaseTest.swift */; };
 		C7D2D0F125C0BBD2004A232F /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2D0EA25C0BBD2004A232F /* AccessibilityIdentifiers.swift */; };
 		C7D2D0F225C0BBD2004A232F /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2D0EA25C0BBD2004A232F /* AccessibilityIdentifiers.swift */; };
 		C7D2D0F325C0BBD2004A232F /* BaseElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2D0EB25C0BBD2004A232F /* BaseElement.swift */; };
@@ -150,7 +148,6 @@
 		C7D2D0DE25C0BBC3004A232F /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		C7D2D0E425C0BBCA004A232F /* SystemAlerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemAlerts.swift; sourceTree = "<group>"; };
 		C7D2D0E825C0BBD2004A232F /* BasePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePage.swift; sourceTree = "<group>"; };
-		C7D2D0E925C0BBD2004A232F /* NFRBaseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFRBaseTest.swift; sourceTree = "<group>"; };
 		C7D2D0EA25C0BBD2004A232F /* AccessibilityIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifiers.swift; sourceTree = "<group>"; };
 		C7D2D0EB25C0BBD2004A232F /* BaseElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseElement.swift; sourceTree = "<group>"; };
 		C7D2D0EC25C0BBD2004A232F /* BaseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
@@ -325,7 +322,6 @@
 			isa = PBXGroup;
 			children = (
 				C7D2D0E825C0BBD2004A232F /* BasePage.swift */,
-				C7D2D0E925C0BBD2004A232F /* NFRBaseTest.swift */,
 				C7D2D0EA25C0BBD2004A232F /* AccessibilityIdentifiers.swift */,
 				C7D2D0EB25C0BBD2004A232F /* BaseElement.swift */,
 				C7D2D0EC25C0BBD2004A232F /* BaseTest.swift */,
@@ -493,7 +489,6 @@
 				C7D2D0CC25C0BBB3004A232F /* ConsolidateReport.swift in Sources */,
 				C7D2D0B625C0BBA9004A232F /* DeeplinkTarget.swift in Sources */,
 				C7D2D0BE25C0BBA9004A232F /* ScreenshotUtil.swift in Sources */,
-				C7D2D0EF25C0BBD2004A232F /* NFRBaseTest.swift in Sources */,
 				C7D2D0C025C0BBA9004A232F /* Tab.swift in Sources */,
 				C7D2D0D025C0BBB3004A232F /* TestObserver.swift in Sources */,
 				C7D2D0B025C0BBA9004A232F /* OverflowOptions.swift in Sources */,
@@ -543,7 +538,6 @@
 				C7D2D0CD25C0BBB3004A232F /* ConsolidateReport.swift in Sources */,
 				C7D2D0E625C0BBCA004A232F /* SystemAlerts.swift in Sources */,
 				C7D2D0D525C0BBB3004A232F /* XCTestExtension.swift in Sources */,
-				C7D2D0F025C0BBD2004A232F /* NFRBaseTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
